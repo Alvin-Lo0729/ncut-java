@@ -2,7 +2,7 @@ package D0120;
 
 public class MathTest {
 	public static void main(String[] args) {
-		double a = 3.2;
+		double a = 2;
 		
 		double b = Math.pow(a, 5);
 		System.out.println(b);
@@ -13,7 +13,7 @@ public class MathTest {
 		double d = Math.random();
 		System.out.println(d); 
 		
-		double e = Math.sin(1.57);
+		double e = Math.sin(0.5);
 		System.out.println(e); 
 	}
 }
