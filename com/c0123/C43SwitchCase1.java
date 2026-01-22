@@ -1,16 +1,19 @@
 package com.c0123;
 
-import java.util.Objects;
-
 public class C43SwitchCase1 {
 
   /**
-   * 這裡是switch case表達式 switch( expression ){ case condition1:{ 要做的事情 break; } case condition2:{
-   * 要做的事情 break; } default:{
-   * <p>
-   * }
-   * <p>
-   * <p>
+   * 這裡是switch case表達式
+   * switch( expression ){
+   * case condition1:
+   *  要做的事情
+   *  break;
+   * case condition2:
+   *  要做的事情
+   *  break;
+   * default:
+   *  要做的事情
+   *  break;
    * }
    *
    * @param args
@@ -21,52 +24,47 @@ public class C43SwitchCase1 {
     //java 8
     switch (a) {
       case 6:
-        System.out.println("他真的大於5");
-        System.out.println("bbc");
+        System.out.println("他等於6");
         break;
       case 5:
         System.out.println("他等於5");
         break;
       default: {
-        System.out.println("不等於以上數字");
+        System.out.println("不等於5或6");
         break;
       }
     }
 
     // 以下為新寫法
     switch (a) {
-      case 6 ->{
+      case 6 -> {
         System.out.println("他真的大於5");
         System.out.println("bbc");
       }
-      case 5 ->{
+      case 5 -> {
         System.out.println("他等於5");
       }
-      default-> {
+      default -> {
         System.out.println("不等於以上數字");
       }
     }
 
-
-    String grade="B";
-    int  score=switch (grade){
+    String grade = "B";
+    int score = switch (grade) {
       case "A": {
         System.out.println("100分");
         yield 100;
       }
-      default :{
+      default: {
         yield 50;
       }
     };
     System.out.println(score);
-    int score2=switch (grade){
-      case "A"-> 100;
+    int score2 = switch (grade) {
+      case "A" -> 100;
       default -> 50;
     };
     System.out.println(score2);
-
-
-
 
 //
 //
