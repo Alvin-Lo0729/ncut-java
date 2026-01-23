@@ -11,10 +11,11 @@ public class AutoConversion{
 
 		byte b=9;
 
-		//char c=b;
-		
+//		char c=b;
+
 		double d=b;
 
 		System.out.println(d);
+
 	}
 }

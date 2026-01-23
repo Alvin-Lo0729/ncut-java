@@ -1,4 +1,3 @@
-package D0120;
 
 public class CharTest{
 
@@ -8,14 +7,13 @@ public class CharTest{
 		
 		System.out.println("A :"+aChar);
 
-		char enterChar='\r';
+		char enterChar='\n';
 
-		System.out.println("enterChar :"+enterChar);
-		
-		char ch='\u9999';
+		System.out.print("enterChar :"+enterChar);
+
+		char ch='\u661F';
 
 		System.out.println("ch :"+ch);
-
 
 		char crazy='瘋';
 
@@ -26,7 +24,6 @@ public class CharTest{
 		char c=97;
 
 		System.out.println(c);
-
 
 	}
 }
