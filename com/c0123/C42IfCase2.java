@@ -10,11 +10,13 @@ public class C42IfCase2 {
     else
       System.out.println("Hi");
 
-    if(a>6)
-      System.out.println("a>6");
+    if(a>4)
+      System.out.println("a>6"); //屬於if的範圍
+    else if (a == 4)
+      System.out.println("a==4");
     else
-      System.out.println("a<6");
-      System.out.println("a小於6");
+      System.out.println("a<6"); //屬於else的範圍
+      System.out.println("a小於6"); //屬於一定會做的範圍
 //    int c=5;
 //    if(c>4)
 //      c--;

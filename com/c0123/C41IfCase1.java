@@ -6,7 +6,7 @@ public class C41IfCase1 {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    System.out.println("請輸入你的華語課程成績");
+    System.out.print("請輸入你的華語課程成績");
     int mandarinScore = scanner.nextInt();
 
     if (mandarinScore>60) {

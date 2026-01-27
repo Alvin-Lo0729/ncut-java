@@ -11,5 +11,6 @@ public class IfCorrectTest {
     } else if (age > 20) {
       System.out.println("青年人");
     }
+
   }
 }

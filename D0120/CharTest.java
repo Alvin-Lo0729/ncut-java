@@ -11,7 +11,7 @@ public class CharTest{
 
 		System.out.print("enterChar :"+enterChar);
 
-		char ch='\u661F';
+		char ch='\u7F85';
 
 		System.out.println("ch :"+ch);
 
