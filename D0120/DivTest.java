@@ -16,6 +16,10 @@ public class DivTest {
 
 		System.out.println(a1/b2);
 
+		double a11=5d;
+		double b11=2d;
+
+		System.out.println(a11/b11);
 	}
 
 }

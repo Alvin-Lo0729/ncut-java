@@ -23,10 +23,12 @@ public class Add {
     double b12=3d;
     double c13=a11+b12;
     System.out.println("c13:"+c13);
+
     double a14=5d;
     double b14=3d;
     double c14=a14-b14;
     System.out.println("c14:"+c14);
+
     double a15=5d;
     double b15=3d;
     double c15=a15*b15;
@@ -36,10 +38,12 @@ public class Add {
     double f11=3f;
     double g11=e11+f11;
     System.out.println("g11:"+g11);
+
     double e12=5f;
     double f12=3f;
     double g12=e12-f12;
     System.out.println("g12:"+g12);
+
     double e13=5f;
     double f13=3f;
     double g13=e13*f13;
