@@ -10,6 +10,17 @@ public class DoWhileTest {
     } while (count < 10);
     System.out.println("do while结束!");
 
+//    1
+//    2
+//    3
+//    4
+//    5
+//    6
+//    7
+//    8
+//    9
+//    do while结束!
+
     int count2 = 20;
     do
       System.out.println(count2++);
