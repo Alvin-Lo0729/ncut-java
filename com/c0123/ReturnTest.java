@@ -10,9 +10,12 @@ public class ReturnTest {
       }
       System.out.println("return后的输出语句");
     }
+//
+//    int a=test1();
+//    System.out.println("a:"+a);
   }
 
-  public int test1() {
+  public static int test1() {
     for (int i = 0; i < 3; i++) {
       System.out.println("i的值是" + i);
       if (i == 1) {

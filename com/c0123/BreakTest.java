@@ -8,6 +8,12 @@ public class BreakTest {
       if (i == 2) {
         break;
       }
+      System.out.println("continue后的输出语句");
     }
+//    i的值是0
+//        continue后的输出语句
+//    i的值是1
+//        continue后的输出语句
+//    i的值是2
   }
 }

@@ -6,7 +6,6 @@ public class BreakTest2 {
 
     outer:
     for (int i = 0; i < 5; i++) {
-
       for (int j = 0; j < 3; j++) {
         System.out.println("i的值为:" + i + "  j的值为:" + j);
         if (j == 1) {
@@ -14,5 +13,6 @@ public class BreakTest2 {
         }
       }
     }
+    System.out.println("end");
   }
 }
