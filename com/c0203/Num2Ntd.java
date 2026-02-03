@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class Num2Ntd {
 
-  private final String[] hanArr = {"零", "壹", "貳", "參", "肆", "伍", "陸", "柒", "捌", "玖"};
-  private final String[] unitArr = {"十", "佰", "仟"};
+  private static final String[] hanArr = {"零", "壹", "貳", "參", "肆", "伍", "陸", "柒", "捌",
+      "玖"};
+  private static final String[] unitArr = {"十", "佰", "仟"};
 
   /**
    *
@@ -13,7 +14,7 @@ public class Num2Ntd {
    * @param num
    * @return
    */
-  private String[] divide(double num) {
+  private static String[] divide(double num) {
     long zheng = (long) num;
 
     long xiao = Math.round((num - zheng) * 100);
@@ -26,7 +27,7 @@ public class Num2Ntd {
    * @param numStr
    * @return
    */
-  private String toHanStr(String numStr) {
+  private static String toHanStr(String numStr) {
     String result = "";
     int numLen = numStr.length();
     for (int i = 0; i < numLen; i++) {
