@@ -7,8 +7,13 @@ public class Arrays3 {
 
   public static void main(String[] args) {
     String[] strings = new String[]{"你", "好", "阿"};
+    System.out.println(strings.length);
+
     for (int i = 0; i < strings.length; i++) {
       System.out.println("strings[" + i + "]:" + strings[i]);
+    }
+    for (int i = strings.length - 1; i >= 0; i--) {
+
     }
     for (String s : strings) {
       System.out.println("s:" + s);

@@ -18,8 +18,13 @@ public class Array1 {
 
     String[] strings2 = {"你", "好", "阿"};
 
-
     int [] kk=new int[5];
+
+    for(int i=0;i<strings2.length;i++){
+      System.out.println(strings2[i]);
+    }
+
+
   }
 
 }

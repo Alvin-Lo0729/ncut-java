@@ -17,11 +17,11 @@ public class ArraysTest {
     System.out.println("a陣列和b陣列是否相等：" + Arrays.equals(a, b));
 
     System.out.println("b陣列的元素为：" + Arrays.toString(b));
-
+//    b陣列的元素为：[3, 4, 1, 1]
     Arrays.fill(b, 2, 4, 1);
 
     System.out.println("b陣列的元素为：" + Arrays.toString(b));
-
+//    b陣列的元素为：[1, 1, 3, 4]
     Arrays.sort(b);
 
     System.out.println("b陣列的元素为：" + Arrays.toString(b));
